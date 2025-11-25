@@ -1,4 +1,4 @@
-var debug=true;
+var debug=false;
 
 var ua = navigator.userAgent;
 var fwVersion = ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple"));
@@ -2825,3 +2825,4 @@ function ps3chk(){
 			break;
 	}
 }
+
