@@ -1,5 +1,5 @@
 var debug=false;
-const fwVersion = "492";
+const fwVersion = "493";
 
 var ua = navigator.userAgent;
 var fwVersion = ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple"));
